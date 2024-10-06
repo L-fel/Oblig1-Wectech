@@ -67,7 +67,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   display: inline-block;
-  width: auto;             /* Ensure the button width fits its content */
+  width: auto;             
   border: none;
 }
 button:hover {
@@ -274,8 +274,8 @@ article {
   border-radius: 5px;
   padding: 15px;
   margin: 10px;
-  width: 30%; /* Make each post take up 30% of the row */
-  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  width: 30%; 
+  box-sizing: border-box; 
 }
 
 article h2 {
@@ -298,7 +298,7 @@ article p {
 /** Page 3 */
 #forcast-container {
   display: flex;
-  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  flex-wrap: wrap; 
   justify-content: center;
   padding: 20px;
   background-color: #f7f7f7;
