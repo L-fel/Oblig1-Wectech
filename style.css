@@ -1,0 +1,347 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url(fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: "Roboto-BlackItalic";
+  src: url(fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto-BoldItalic";
+  src: url(fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "Roboto-Italic";
+  src: url(fonts/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url(fonts/Roboto/Roboto-LightItalic.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-MediumItalic";
+  src: url(fonts/Roboto/Roboto-MediumItalic.ttf);
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url(fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: "Roboto-ThinItalic";
+  src: url(fonts/Roboto/Roboto-ThinItalic.ttf);
+}
+h1 {
+  font-family: Roboto-Bold;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  text-align: center;
+}
+
+p {
+  font-family: Roboto-Black;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: inline-block;
+  width: auto;             /* Ensure the button width fits its content */
+  border: none;
+}
+button:hover {
+  background-color: blue;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** Header */
+header {
+  align-content: center;
+  background-color: #202c34;
+  color: white;
+}
+
+
+.link {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+
+}
+.link a {
+  color: white;
+  text-decoration: none;
+  font-family: Roboto-Light;
+}
+
+.link a:hover {
+  text-decoration: underline;
+}
+
+
+/** Page 1*/
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #202c34;
+  color: white;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin-left: 200px;
+}
+
+.content-left h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  max-width: 250px;
+  font-family: Roboto-Bold;
+}
+
+.content-left p {
+  margin-bottom: 20px;
+  max-width: 250px;
+  font-family: Roboto-Medium;
+}
+.content-left button {
+  padding: 7px 20px;
+  font-size: 0.9rem;
+  width: fit-content;
+  align-self: flex-start;
+  border-radius: 10px;
+}
+.content-right img {
+  max-width: 70%;
+  height: auto;
+  margin-right: 150px;
+}
+.section2 {
+  background-color: white;
+  color: black;
+}
+
+.section2 h3 {
+display: flex;
+justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  margin: 40px auto;
+}
+
+
+.upper-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+}
+ .upper-1 {
+   margin-left: 250px;
+   width: 300px;
+   height: 150px;
+   border: 5px solid #007bff;
+   border-radius: 6px;
+ }
+.upper-2{
+  display: flex;
+  max-width: 30%;
+  margin-right: 300px;
+}
+.upper-2 p {
+  font-family: Roboto-Light;
+}
+
+.down-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+}
+.down-1 {
+  max-width: 30%;
+  margin-left: 300px;
+}
+.down-1 p {
+  font-family: Roboto-Light;
+}
+.down-2 {
+  margin-right: 250px;
+  width: 300px;
+  height: 150px;
+  border: 5px solid #007bff;
+  border-radius: 6px;
+}
+.section3 {
+  display: flex;
+  background-color: lightgrey;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Quote1 blockquote {
+font-family: Roboto-LightItalic;
+  font-size: 40px;
+}
+.Quote1 p {
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.section4 {
+  display: flex;
+  background-color: white;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+.box-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: auto;
+  padding: 20px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.box-left {
+  margin-left: 40px;
+}
+#Alert {
+  font-family: Roboto-Medium;
+}
+.box-left p {
+  font-family: Roboto-Regular;
+}
+
+.box-right {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.box-right button {
+  border: 2px solid white;
+}
+
+
+/** Page 2*/
+
+#post-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+article {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 30%; /* Make each post take up 30% of the row */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+article h2 {
+  font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+article p {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+/** Page 3 */
+#forcast-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+#forcast-container article {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+}
+
+#forcast-container h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+#forcast-container p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 16px;
+}
+
+/** Footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #202c34;
+  color: white;
+  height: 50px;
+  text-align: center;
+  margin-right: auto;
+  bottom: 0;
+}
+
+.Copy {
+  justify-content: center;
+  align-content: center;
+}
+.Copy p {
+  font-family: Roboto-Light;
+}
+
